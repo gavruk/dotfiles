@@ -1,15 +1,52 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 
+export GOPATH=$HOME/Development/go
+export GOROOT=/usr/local/go
+
+### Added by the Heroku Toolbelt
+#export PATH="/usr/local/heroku/bin:$PATH"
+
+export LANG="it_IT.UTF-8"
+export LC_COLLATE="it_IT.UTF-8"
+export LC_CTYPE="it_IT.UTF-8"
+export LC_MESSAGES="it_IT.UTF-8"
+export LC_MONETARY="it_IT.UTF-8"
+export LC_NUMERIC="it_IT.UTF-8"
+export LC_TIME="it_IT.UTF-8"
+export LC_ALL=
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+
+
+export PATH="$HOME/bin:$PATH";
+export PATH="/Users/sergey/Development/go/bin:$PATH"
+export PATH="~/Qt/Qt5.2.1/5.2.1/clang_64/bin:$PATH"
+export PATH="/usr/local/Cellar/cmake/2.8.11.2/bin:$PATH"
+export PATH="/usr/local/bin"
+export PATH="/usr/bin:$PATH"
+export PATH="/bin:$PATH"
+export PATH="/usr/sbin:$PATH"
+export PATH="/sbin:$PATH"
+export PATH="/usr/local/share/npm/bin:$PATH"
+export PATH="/usr/local/share/python:$PATH"
+export PATH="/usr/local/go/bin:$PATH"
+export PATH="/opt/X11/bin:$PATH"
+export PATH="/usr/local/git/bin:$PATH"
+export PATH="/sw/bin/:$PATH"
+export PATH="/usr/local/:$PATH"
+export PATH="/usr/local/sbin$PATH"
+export PATH="/usr/local/mysql/bin:$PATH"
+export PATH="/Users/sergey/.rvm/gems/ruby-2.0.0-p247/bin:$PATH"
+export PATH="/Users/sergey/.rvm/gems/ruby-2.0.0-p247@global/bin:$PATH"
+export PATH="/Users/sergey/.rvm/rubies/ruby-2.0.0-p247/bin:$PATH"
+export PATH="/Users/sergey/.rvm/bin:$PATH"
+export PATH="/Users/sergey/bin:$PATH"
+
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -26,8 +63,8 @@ ZSH_THEME="robbyrussell"
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
 
-# Uncomment the following line to disable command auto-correction.
-# DISABLE_CORRECTION="true"
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -48,16 +85,12 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-export GOPATH=$HOME/Development/go
-export GOROOT=/usr/local/go
-
-export PATH="/Users/sergey/.rvm/gems/ruby-2.0.0-p247/bin:/Users/sergey/.rvm/gems/ruby-2.0.0-p247@global/bin:/Users/sergey/.rvm/rubies/ruby-2.0.0-p247/bin:/Users/sergey/.rvm/bin:/Users/sergey/Development/go/bin:~/Qt/Qt5.2.1/5.2.1/clang_64/bin:/usr/local/Cellar/cmake/2.8.11.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/share/python:/usr/local/go/bin:/opt/X11/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -75,3 +108,12 @@ export PATH="/Users/sergey/.rvm/gems/ruby-2.0.0-p247/bin:/Users/sergey/.rvm/gems
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
